@@ -1,0 +1,11 @@
+runtime: nodejs12
+env_variables:
+  AUTH0_JWKS_URL: https://victorneves.eu.auth0.com/.well-known/jwks.json
+  AUTH0_AUDIENCE: https://victorneves.eu.auth0.com/api/v2/
+  AUTH0_ISSUER: https://victorneves.eu.auth0.com/
+  AUTH0_CLIENT_ID: DsJKmjBzhwu6X4fANdrIIn8UAWhginpnW
+  AUTH0_CLIENT_SECRET: eS9LrlK8TifnOv4M2P1knQrWMQRJ6zZnNxN3e8zAyEHcP2vZ5BaUlb6iAcx-Lwz0
+  PG_HOST: /cloudsql/school-lunch-294812:us-central1:school-lunch-db
+  PG_PASSWORD: 41hGTp7@1975
+  PG_USER: postgres
+  PG_CATALOG_DATABASE: catalog
